@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+   "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+ <!ENTITY % local.common.attrib "xmlns:xi CDATA #FIXED 'http://www.w3.org/2003/XInclude'">
+ <!ENTITY % gtkdocentities SYSTEM "xml/gtkdocentities.ent">
+ %gtkdocentities;
+]>
+
+<refentry id="amtk-intro">
+<refmeta>
+  <refentrytitle>Amtk Introduction</refentrytitle>
+</refmeta>
+
+<refnamediv>
+  <refname>Amtk Introduction</refname>
+  <refpurpose>
+    Introduction to the Actions, Menus and Toolbars Kit for GTK applications.
+  </refpurpose>
+</refnamediv>
+
+<para>
+  Amtk is the acronym for “Actions, Menus and Toolbars Kit”. Amtk has been
+  initially created as a basic <link linkend="GtkUIManager">GtkUIManager</link>
+  replacement based on <link linkend="GAction">GAction</link>.
+  <link linkend="GtkUIManager">GtkUIManager</link> has been deprecated in
+  GTK&nbsp;3 (and removed in GTK&nbsp;4), without a good replacement for
+  applications that want to keep a traditional UI (with a
+  <link linkend="GtkMenuBar">GtkMenuBar</link>, a
+  <link linkend="GtkToolbar">GtkToolbar</link> and a
+  <link linkend="GtkStatusbar">GtkStatusbar</link>). Amtk is now suitable for
+  both a traditional UI and for a new UI with a
+  <link linkend="GtkHeaderBar">GtkHeaderBar</link> and a “hamburger menu”.
+</para>
+
+<para>
+  With Amtk, menus, toolbars or other objects like
+  <link linkend="GtkShortcutsWindow">GtkShortcutsWindow</link> are created
+  programmatically (not with a *.ui file), but with convenient APIs. The support
+  for an XML format will maybe be added in the future, contributions welcome.
+</para>
+
+<refsect1>
+  <title>General advantages</title>
+  <itemizedlist>
+    <listitem>
+      <para>
+        Primarily, encoding the information about an action only once, to create
+        various objects such as a menu item, a toolbar item, a
+        <link linkend="GtkShortcutsShortcut">GtkShortcutsShortcut</link>, etc.
+        The information needed about an action: a label (i.e. a short
+        description), possibly an icon, a tooltip (i.e. a longer description)
+        and keyboard shortcuts. This is implemented by
+        <link linkend="AmtkActionInfo">AmtkActionInfo</link>, with
+        <link linkend="AmtkFactory">AmtkFactory</link> functions to create
+        various objects.
+      </para>
+      <para>
+        This also has the nice benefit that all the information about an action
+        is centralized in only one place, to keep related information close
+        together. This permits to more easily catch inconsistencies.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Amtk has been designed to be able to share
+        <link linkend="AmtkActionInfo">AmtkActionInfo</link>'s in a library (with
+        translations); this is a bit similar to
+        <link linkend="GtkStockItem">GtkStockItem</link>, to reduce the amount of
+        work that an application (and translators) need to do. As a result the
+        library can provide a higher-level API.
+      </para>
+    </listitem>
+  </itemizedlist>
+</refsect1>
+
+<refsect1>
+  <title>Advantages for a traditional UI</title>
+  <itemizedlist>
+    <listitem>
+      <para>
+        When writing an XML file to create a <link linkend="GMenu">GMenu</link>
+        with the format understood by <link linkend="GtkBuilder">GtkBuilder</link>
+        (see the class description of <link linkend="GtkApplicationWindow">GtkApplicationWindow</link>),
+        the information in the XML file can be used only to create a <link linkend="GMenu">GMenu</link>,
+        not a toolbar. It is not a good programming practice to duplicate the
+        information. With Amtk the information is encoded just once, in
+        <link linkend="AmtkActionInfo">AmtkActionInfo</link>'s, and menu and
+        toolbar items are created with <link linkend="AmtkFactory">AmtkFactory</link>
+        which uses the information provided by the
+        <link linkend="AmtkActionInfo">AmtkActionInfo</link>'s.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Something that is not possible to do with the support of
+        <link linkend="GMenu">GMenu</link> in GTK, that Amtk solves when using
+        <link linkend="GtkMenuItem">GtkMenuItem</link>'s: when a
+        <link linkend="GtkMenuItem">GtkMenuItem</link> is selected (e.g. when
+        the mouse hovers it), showing a longer description in the
+        <link linkend="GtkStatusbar">GtkStatusbar</link>. This is implemented by
+        <link linkend="AmtkApplicationWindow">AmtkApplicationWindow</link>. It
+        makes the UI better self-discoverable, to improve the usability.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Related to the previous point: having a
+        <link linkend="GtkRecentChooser">GtkRecentChooser</link> menu that shows
+        in a <link linkend="GtkStatusbar">GtkStatusbar</link> the full file path
+        when a menu item is selected. This is implemented by
+        <link linkend="amtk-application-window-connect-recent-chooser-menu-to-statusbar">amtk_application_window_connect_recent_chooser_menu_to_statusbar()</link>.
+      </para>
+    </listitem>
+  </itemizedlist>
+</refsect1>
+
+<refsect1>
+  <title>Sanity checks</title>
+  <para>
+    Amtk has several functions to do various sanity checks. They normally don't
+    impact too much the performances, so it is recommended to always run them,
+    although they could be disabled on production. The functions:
+  </para>
+  <itemizedlist>
+    <listitem>
+      <para>
+        <link linkend="amtk-action-map-add-action-entries-check-dups">amtk_action_map_add_action_entries_check_dups()</link>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link linkend="amtk-action-info-store-check-all-used">amtk_action_info_store_check_all_used()</link>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Another sanity check, but which cannot be disabled: the
+        <link linkend="AmtkActionInfoCentralStore">AmtkActionInfoCentralStore</link>
+        checks that each <link linkend="AmtkActionInfo">AmtkActionInfo</link>
+        has a unique action name. Which means that
+        <link linkend="AmtkActionInfo">AmtkActionInfo</link>'s provided by a
+        library must be namespaced.
+      </para>
+    </listitem>
+  </itemizedlist>
+</refsect1>
+
+<refsect1>
+  <title>GTK dependency</title>
+  <para>
+    Amtk&nbsp;@AMTK_API_VERSION@ depends on GTK&nbsp;3.
+  </para>
+</refsect1>
+
+<refsect1>
+  <title>pkg-config name</title>
+  <para>
+    For Amtk&nbsp;@AMTK_API_VERSION@, the pkg-config name is:
+    <code>amtk-@AMTK_API_VERSION@</code>
+  </para>
+  <para>
+    To compile a program that uses Amtk&nbsp;@AMTK_API_VERSION@, you can for
+    example use the following command:
+  </para>
+  <para>
+    <code>$ gcc hello.c `pkg-config --cflags --libs amtk-@AMTK_API_VERSION@` -o hello</code>
+  </para>
+</refsect1>
+</refentry>

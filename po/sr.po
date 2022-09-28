@@ -1,0 +1,366 @@
+# Serbian translation for tepl.
+# Copyright © 2017 tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2017–2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-02-23 00:49+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: српски <gnome-sr@googlegroups.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Отварам „%s“"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Отвори _скорашње"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Отворите датотеку коју је недавно користио „%s“"
+
+#~ msgid "_New"
+#~ msgstr "_Нова"
+
+#~ msgid "New file"
+#~ msgstr "Нова датотека"
+
+#~ msgid "New _Window"
+#~ msgstr "Нови _прозор"
+
+#~ msgid "Create a new window"
+#~ msgstr "Направите нови прозор"
+
+#~ msgid "_Open"
+#~ msgstr "_Отвори"
+
+#~| msgid "New file"
+#~ msgid "Open a file"
+#~ msgstr "Отворите датотеку"
+
+#~ msgid "_Save"
+#~ msgstr "_Сачувај"
+
+#~ msgid "Save the current file"
+#~ msgstr "Сачувајте текућу датотеку"
+
+#~ msgid "Save _As"
+#~ msgstr "Сачувај _као"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Сачувајте текућу датотеку на другом месту"
+
+#~ msgid "_Undo"
+#~ msgstr "_Опозови"
+
+#~| msgid "Copy the selection"
+#~ msgid "Undo the last action"
+#~ msgstr "Опозовите последњу радњу"
+
+#~ msgid "_Redo"
+#~ msgstr "_Понови"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Поништите последњу раду опозива"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Исеци"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Исеците избор"
+
+#~ msgid "_Copy"
+#~ msgstr "У_множи"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Умножите избор"
+
+#~ msgid "_Paste"
+#~ msgstr "У_баци"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Убаците из оставе"
+
+#~ msgid "_Delete"
+#~ msgstr "_Обриши"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Обришите изабрани текст"
+
+#~ msgid "Select _All"
+#~ msgstr "Изабери _све"
+
+#~ msgid "Select all the text"
+#~ msgstr "Изаберите сав текст"
+
+#~ msgid "_Indent"
+#~ msgstr "_Увуци"
+
+#~| msgid "Delete the selected text"
+#~ msgid "Indent the selected lines"
+#~ msgstr "Увуците изабране редове"
+
+#~ msgid "_Unindent"
+#~ msgstr "_Поништи увлачење"
+
+#~| msgid "Delete the selected text"
+#~ msgid "Unindent the selected lines"
+#~ msgstr "Поништите увлачење изабраних редова"
+
+#~ msgid "Open File"
+#~ msgstr "Отвори датотеку"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Откажи"
+
+#~ msgid "Read-Only"
+#~ msgstr "Само за читање"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "Да сачувам измене у датотеку „%s“ пре затварања?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Затвори _без чувања"
+
+#~ msgid "_Save As…"
+#~ msgstr "_Сачувај као…"
+
+#~ msgid "Unicode"
+#~ msgstr "Уникод"
+
+#~ msgid "Western"
+#~ msgstr "Западни"
+
+#~ msgid "Central European"
+#~ msgstr "Централноевропски"
+
+#~ msgid "South European"
+#~ msgstr "Јужноевропски"
+
+#~ msgid "Baltic"
+#~ msgstr "Балтички"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Ћирилични"
+
+#~ msgid "Arabic"
+#~ msgstr "Арапски"
+
+#~ msgid "Greek"
+#~ msgstr "Грчки"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Хебрејски визуелни"
+
+#~ msgid "Turkish"
+#~ msgstr "Турски"
+
+#~ msgid "Nordic"
+#~ msgstr "Нордијски"
+
+#~ msgid "Celtic"
+#~ msgstr "Келтски"
+
+#~ msgid "Romanian"
+#~ msgstr "Румунски"
+
+#~ msgid "Armenian"
+#~ msgstr "Јерменски"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Кинески традиционални"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Ћирилични/Руски"
+
+#~ msgid "Japanese"
+#~ msgstr "Јапански"
+
+#~ msgid "Korean"
+#~ msgstr "Корејски"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Кинески поједностављени"
+
+#~ msgid "Georgian"
+#~ msgstr "Грузијски"
+
+#~ msgid "Hebrew"
+#~ msgstr "Хебрејски"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Ћирилични/Украјински"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Вијетнамски"
+
+#~ msgid "Thai"
+#~ msgstr "Тајландски"
+
+#~ msgid "Unknown"
+#~ msgstr "Непознат"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr "Претварање из скупа знакова „%s“ у „%s“ још није подржано."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Не могу да отворим претварач из „%s“ у „%s“: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Улазни подаци садрже неисправан низ."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Грешка приликом претварања података: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr "Улазни подаци се завршавају непотпуним вишебајтним низом."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "Улаз садржи крај са непотпуним подацима."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Неименована датотека %d"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "Датотека је превелика. Највише %s може бити учитано."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Не могу аутоматски да одредим кодирање знакова."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Датотека је измењена споља."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Међумеморија садржи неисправне знаке."
+
+#~| msgid "Error when converting data: %s"
+#~ msgid "Error when loading the file."
+#~ msgstr "Грешка приликом учитавања датотеке."
+
+#~ msgid "Save File"
+#~ msgstr "Сачувај датотеку"
+
+#~ msgid "Location:"
+#~ msgstr "Место:"
+
+#~ msgid "Close file"
+#~ msgstr "Затвори датотеку"
+
+#~| msgid "Error when converting data: %s"
+#~ msgid "Error when saving the file."
+#~ msgstr "Грешка приликом чувања датотеке."
+
+#~ msgid "Could not find the file “%s”."
+#~ msgstr "Не могу да нађем датотеку „%s“."
+
+#~ msgid "Please check that you typed the location correctly and try again."
+#~ msgstr "Проверите да ли сте исправно укуцали место и пробајте поново."
+
+#~ msgid "Unable to handle “%s:” locations."
+#~ msgstr "Не могу да радим са „%s:“ местима."
+
+#~ msgid "The location of the file cannot be accessed."
+#~ msgstr "Не могу да приступим месту датотеке."
+
+#~ msgid "“%s” is a directory."
+#~ msgstr "„%s“ је директоријум."
+
+#~ msgid "“%s” is not a valid location."
+#~ msgstr "„%s“ није исправно место."
+
+#~ msgid ""
+#~ "Host “%s” could not be found. Please check that your proxy settings are "
+#~ "correct and try again."
+#~ msgstr ""
+#~ "Не могу да нађем домаћина „%s“. Проверите да ли су ваша подешавања "
+#~ "посредника исправна и пробајте поново."
+
+#~ msgid ""
+#~ "Hostname was invalid. Please check that you typed the location correctly "
+#~ "and try again."
+#~ msgstr ""
+#~ "Назив домаћина беше неисправан. Проверите да ли сте исправно укуцали "
+#~ "место и пробајте поново."
+
+#~ msgid "“%s” is not a regular file."
+#~ msgstr "„%s“ није обична датотека."
+
+#~ msgid "Connection timed out. Please try again."
+#~ msgstr "Истекло је време за везу. Пробајте поново."
+
+#~ msgid "Unexpected error: %s"
+#~ msgstr "Неочекивана грешка: %s"
+
+#~ msgid "_Retry"
+#~ msgstr "_Покушај поново"
+
+#~ msgid "Edit Any_way"
+#~ msgstr "Уреди _ипак"
+
+#~ msgid ""
+#~ "The number of followed links is limited and the actual file could not be "
+#~ "found within this limit."
+#~ msgstr ""
+#~ "Број праћених веза је ограничен, а стварну датотеку не могу пронаћи у "
+#~ "овом опсегу."
+
+#~ msgid "You do not have the permissions necessary to open the file."
+#~ msgstr "Немате потребна овлашћења да отворите датотеку."
+
+#~ msgid ""
+#~ "Unable to detect the character encoding.\n"
+#~ "Please check that you are not trying to open a binary file.\n"
+#~ "Select a character encoding from the menu and try again."
+#~ msgstr ""
+#~ "Не могу да откријем кодирање знакова.\n"
+#~ "Проверите да не покушавате да отворите бинарну датотеку.\n"
+#~ "Изабери кодирање знакова из изборника и покушајте поново."
+
+#~ msgid "There was a problem opening the file “%s”."
+#~ msgstr "Дошло је до проблема при отварању датотеке „%s“."
+
+#~ msgid ""
+#~ "The file you opened has some invalid characters. If you continue editing "
+#~ "this file you could corrupt it.\n"
+#~ "You can also choose another character encoding and try again."
+#~ msgstr ""
+#~ "Датотека коју сте отворили има неке неисправне знакове. Ако наставите да "
+#~ "је уређујете можете да је оштетите.\n"
+#~ "Такође можете да изаберете други кодни распоред и да покушате поново."
+
+#~ msgid "Could not open the file “%s” using the “%s” character encoding."
+#~ msgstr "Не могу да отворим датотеку „%s“ користећи „%s“ кодирање знакова."
+
+#~ msgid ""
+#~ "Please check that you are not trying to open a binary file.\n"
+#~ "Select a different character encoding from the menu and try again."
+#~ msgstr ""
+#~ "Проверите да не покушавате да отворите бинарну датотеку.\n"
+#~ "Изабери други кодни распоред из изборника и покушајте поново."
+
+#~ msgid "Could not open the file “%s”."
+#~ msgstr "Не могу да отворим датотеку „%s“."

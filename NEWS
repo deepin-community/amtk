@@ -1,0 +1,132 @@
+News in 5.2.0, 2020-09-10
+-------------------------
+* Translation updates.
+
+News in 5.1.2, 2020-09-04
+-------------------------
+* Build system: better support for Visual Studio.
+* Translation updates.
+
+News in 5.1.1, 2020-05-29
+-------------------------
+* Support detailed GAction names in factory functions.
+* Mark public API with _AMTK_EXTERN.
+* Microsoft Windows: better support.
+* Small maintenance stuff.
+* Translation updates.
+
+News in 5.0.2, 2020-01-25
+-------------------------
+* Small maintenance stuff.
+* Translation updates.
+
+News in 5.0.1, 2019-09-06
+-------------------------
+* Fix a small, new compilation warning.
+* Build from Git: allow building with gettext ≥ 0.20.
+* Write more development notes.
+* Translation updates.
+
+News in 5.0.0, 2018-07-16
+-------------------------
+* Moved to GNOME GitLab instance.
+* Some minor improvements.
+* Some new translations.
+
+News in 4.99.1, 2018-04-15
+--------------------------
+* Move Amtk to its own git repository (it was initially developed in Tepl).
+* Bump API/major version to 5, to avoid any problem if Tepl 4.0 is installed at
+  the same time (which contains amtk-4).
+* AmtkFactory: add functions to create a simple GtkMenu directly from an array
+  of AmtkActionInfoEntry's (will be useful in gnome-latex).
+* Extend Amtk to support a GUI with a GtkHeaderBar (now used in Devhelp):
+ - AmtkFactory: add functions to create GMenuItem's and GtkShortcutsShortcut's.
+ - Add convenience functions to create a GMenu and a GtkShortcutsWindow.
+ - Add amtk_action_info_store_set_all_accels_to_app().
+
+News in 3.99.1, 2017-12-09
+--------------------------
+
+* Amtk:
+ - Improve amtk_utils_bind_g_action_to_gtk_action() to support _detailed_
+   GAction names.
+ - Add amtk_utils_create_gtk_action().
+
+News in 2.99.4, 2017-08-20
+--------------------------
+
+Amtk:
+* Add factory functions to create GtkMenuToolButton's and GtkCheckMenuItem's.
+* Improve API of amtk_application_window_connect_menu_to_statusbar().
+* Add amtk_utils_bind_g_action_to_gtk_action(), to be able to port an
+  application gradually to GAction while still using GtkUIManager.
+
+News in 2.99.3, 2017-08-09
+--------------------------
+
+Amtk:
+* Add amtk_init() and amtk_finalize().
+* Remove AmtkFactoryMenu class, move its functions to its parent class
+  AmtkFactory.
+* AmtkFactory: add functions to create GtkToolItem's.
+* Add amtk_application_window_create_open_recent_menu().
+* Improvements to the documentation.
+* Other small code improvements.
+
+News in 2.99.2, 2017-07-18
+--------------------------
+
+Amtk:
+* The biggest change in this release is that the classes and functions related
+  to actions and menus have been moved to a new shared library called Amtk
+  (Actions, Menus and Toolbars Kit), since it was not really related to text
+  editors, it is more general. But Amtk is still developed inside the Tepl
+  repository. Amtk is a basic GtkUIManager replacement based on GAction (still
+  under development, it is not yet finished, for example it doesn't handle
+  toolbars).
+* Add AmtkFactory and AmtkFactoryMenu, which replace
+  amtk_action_info_store_create_menu_item().
+
+News in 2.99.1, 2017-06-15
+--------------------------
+* The library has been renamed from Gtef (GTK+ text editor framework) to Tepl
+  (Text editor product line), to have a more beautiful name. The end of Tepl is
+  pronounced like “apple”.
+
+News in 1.99.2, 2017-03-12
+--------------------------
+
+Basic GtkUIManager replacement based on GAction:
+* Add an easy way to create a GtkMenuItem from a GtefActionInfo.
+* Add a function to check that every GtefActionInfo in a GtefActionInfoStore
+  has been used.
+* Add reference counting to GtefActionInfo.
+* Add GtefActionInfoCentralStore singleton class.
+* Add gtef_action_map_add_action_entries_check_dups(), to check if there are
+  duplicates when adding GActions to a GActionMap.
+* Rename gtef_application_get_action_info_store() to
+  gtef_application_get_app_action_info_store().
+* Add GtefMenuShell, an extension of GtkMenuShell with the ::menu-item-selected
+  and ::menu-item-deselected signals.
+* Add gtef_menu_item_get/set_long_description().
+* Add GtefApplicationWindow, an extension of GtkApplicationWindow with:
+	* A statusbar property.
+	* A function to connect a GtefMenuShell to the statusbar,
+	  pushing/popping the long descriptions of GtkMenuItems when they are
+	  selected/deselected.
+	* A function to connect a GtkRecentChooserMenu to the statusbar,
+	  pushing/popping the full paths.
+	* A function to create a GtkMenuItem with a simple and generic
+	  GtkRecentChooserMenu as submenu.
+
+News in 1.99.1, 2017-01-26
+--------------------------
+
+Start a basic GtkUIManager replacement based on GAction:
+* Add gtef_utils_menu_item_set_icon_name()
+* Add GtefActionInfo
+* Add GtefActionInfoStore
+* Note that those classes are a little out of scope for a text editor library.
+  I would be happy to move those classes to a better library once the feature
+  is finished and well-tested. The classes were added to Gtef for convenience.

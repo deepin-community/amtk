@@ -1,0 +1,42 @@
+amtk (5.2.0-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * New upstream release
+  * Bump minimum libglib2.0-dev to 2.56
+  * Bump debhelper-compat to 13
+
+  [ Sebastien Bacher ]
+  * debian/libamtk-5-dev.doc-base:
+    - change the paths to be the /usr/share/doc symlinked one to avoid
+      lintian doc-base-file-references-wrong-path warnings
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 05 Oct 2020 19:39:49 -0400
+
+amtk (5.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build-Depend on debhelper-compat 12 and drop debian/compat
+  * Build-Depend on dh-sequence-gir and dh-sequence-gnome
+  * Bump Standards-Version to 4.5.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 02 Feb 2020 08:35:21 -0500
+
+amtk (5.0.0-3) unstable; urgency=medium
+
+  * Add -Wl,-O1 to our LDFLAGS
+  * Bump Standards-Version to 4.3.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 23 Dec 2018 17:02:14 -0500
+
+amtk (5.0.0-2) unstable; urgency=medium
+
+  * Switch maintainer to Debian GNOME Team
+  * Have libamtk-5-dev depend on libgtk-3-dev
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 17 Nov 2018 12:47:57 -0500
+
+amtk (5.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #904643)
+
+ -- Tanguy Ortolo <tanguy+debian@ortolo.eu>  Mon, 08 Oct 2018 12:16:26 +0200

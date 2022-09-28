@@ -1,0 +1,68 @@
+Source: amtk
+Section: libs
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Tanguy Ortolo <tanguy+debian@ortolo.eu>, @GNOME_TEAM@
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-gir,
+               dh-sequence-gnome,
+               gtk-doc-tools,
+               libgirepository1.0-dev,
+               libglib2.0-dev (>= 2.56),
+               libgtk-3-dev (>= 3.22)
+Standards-Version: 4.5.0
+X-Ubuntu-Use-Langpack: yes
+Homepage: https://wiki.gnome.org/Projects/Amtk
+Vcs-Browser: https://salsa.debian.org/gnome-team/amtk
+Vcs-Git: https://salsa.debian.org/gnome-team/amtk.git
+
+Package: libamtk-5-common
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Actions, Menus and Toolbars Kit for GTK+ - architecture-independent files
+ Amtk is a basic GtkUIManager replacement based on GAction.  It
+ is suitable for both a traditional UI or a modern UI with a
+ GtkHeaderBar.
+ .
+ This package contains the architecture independent files
+ like translation of messages.
+
+Package: libamtk-5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: gir1.2-amtk-5 (= ${binary:Version}),
+         libamtk-5-0 (= ${binary:Version}),
+         libgtk-3-dev (>= 3.22),
+         ${misc:Depends}
+Description: Actions, Menus and Toolbars Kit for GTK+ - development files
+ Amtk is a basic GtkUIManager replacement based on GAction.  It
+ is suitable for both a traditional UI or a modern UI with a
+ GtkHeaderBar.
+ .
+ This package contains development headers and libraries.
+
+Package: libamtk-5-0
+Architecture: any
+Multi-Arch: same
+Depends: libamtk-5-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Actions, Menus and Toolbars Kit for GTK+
+ Amtk is a basic GtkUIManager replacement based on GAction.  It
+ is suitable for both a traditional UI or a modern UI with a
+ GtkHeaderBar.
+
+Package: gir1.2-amtk-5
+Section: introspection
+Architecture: any
+Multi-Arch: same
+Depends: ${gir:Depends},
+         ${misc:Depends}
+Description: Actions, Menus and Toolbars Kit for GTK+ - GObject introspection
+ Amtk is a basic GtkUIManager replacement based on GAction.  It
+ is suitable for both a traditional UI or a modern UI with a
+ GtkHeaderBar.
+ .
+ This package contains the GObject introspection binding.

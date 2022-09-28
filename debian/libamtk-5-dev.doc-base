@@ -1,0 +1,9 @@
+Document: amtk
+Title: Amtk Reference Manual
+Author: Sébastien Wilmet
+Abstract: Documentation of amtk's API, generated with gtk-doc
+Section: Programming/C
+
+Format: HTML
+Index: /usr/share/doc/libamtk-5-dev/html/index.html
+Files: /usr/share/doc/libamtk-5-dev/html/*.html

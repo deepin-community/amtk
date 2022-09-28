@@ -1,0 +1,273 @@
+# German translation for tepl.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Christian Kirbach <christian.kirbach@gmail.com>, 2017.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2017.
+# Tim Sabsch <tim@sabsch.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-02-27 17:06+0100\n"
+"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "»%s« öffnen"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Zu_letzt geöffnet"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Eine kürzlich von »%s« verwendete Datei öffnen"
+
+#~ msgid "_New"
+#~ msgstr "_Neu"
+
+#~ msgid "New file"
+#~ msgstr "Neue Datei"
+
+#~ msgid "New _Window"
+#~ msgstr "Neues _Fenster"
+
+#~ msgid "Create a new window"
+#~ msgstr "Ein neues Fenster öffnen"
+
+#~ msgid "_Open"
+#~ msgstr "Ö_ffnen"
+
+#~ msgid "Open a file"
+#~ msgstr "Eine Datei öffnen"
+
+#~ msgid "_Save"
+#~ msgstr "_Speichern"
+
+#~ msgid "Save the current file"
+#~ msgstr "Aktuelle Datei speichern"
+
+#~ msgid "Save _As"
+#~ msgstr "Speichern _unter"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Datei an einem anderen Ort speichern"
+
+#~ msgid "_Undo"
+#~ msgstr "_Rückgängig"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Letzte Aktion rückgängig machen"
+
+#~ msgid "_Redo"
+#~ msgstr "_Wiederholen"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Die letzte zurückgenommene Aktion wiederholen"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Ausschneiden"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Die Auswahl ausschneiden"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopieren"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Die Auswahl kopieren"
+
+#~ msgid "_Paste"
+#~ msgstr "_Einfügen"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Den Inhalt der Zwischenablage einfügen"
+
+#~ msgid "_Delete"
+#~ msgstr "_Löschen"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Ausgewählten Text löschen"
+
+#~ msgid "Select _All"
+#~ msgstr "Alles au_swählen"
+
+#~ msgid "Select all the text"
+#~ msgstr "Den gesamten Text auswählen"
+
+#~ msgid "_Indent"
+#~ msgstr "Ein_rücken"
+
+#~ msgid "Indent the selected lines"
+#~ msgstr "Die ausgewählten Zeilen einrücken"
+
+#~ msgid "_Unindent"
+#~ msgstr "A_usrücken"
+
+#~ msgid "Unindent the selected lines"
+#~ msgstr "Die ausgewählten Zeilen ausrücken"
+
+#~ msgid "Open File"
+#~ msgstr "Datei öffnen"
+
+#~ msgid "_Cancel"
+#~ msgstr "A_bbrechen"
+
+#~ msgid "Read-Only"
+#~ msgstr "Schreibgeschützt"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "Änderungen an der Datei »%s« vor dem Schließen speichern?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Ohne Speichern s_chließen"
+
+#~ msgid "_Save As…"
+#~ msgstr "Speichern _unter …"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Westeuropäisch"
+
+#~ msgid "Central European"
+#~ msgstr "Mitteleuropäisch"
+
+#~ msgid "South European"
+#~ msgstr "Südeuropäisch"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltisch"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrillisch"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabisch"
+
+#~ msgid "Greek"
+#~ msgstr "Griechisch"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebräisch (visuell)"
+
+#~ msgid "Turkish"
+#~ msgstr "Türkisch"
+
+#~ msgid "Nordic"
+#~ msgstr "Skandinavisch"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltisch"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumänisch"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenisch"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Chinesisch (traditionell)"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrillisch/Russisch"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanisch"
+
+#~ msgid "Korean"
+#~ msgstr "Koreanisch"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chinesisch (vereinfacht)"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgisch"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebräisch"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrillisch/Ukrainisch"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamesisch"
+
+#~ msgid "Thai"
+#~ msgstr "Thailändisch"
+
+#~ msgid "Unknown"
+#~ msgstr "Unbekannt"
+
+# translator-comments beachten.
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr "Umwandlung von Zeichensatz »%s« in »%s« wird nicht unterstützt."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Konverter von »%s« in »%s« konnte nicht geöffnet werden: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Die EIngabedaten enthalten eine ungültige Folge."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Fehler beim Konvertieren der Daten: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr ""
+#~ "Die Eingabedaten endenn mit einer unvollständigen Folge mehrerer Byte."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "Die Eingabe endet mit unvollständigen Daten."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Unbenannte Datei %d"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "Die Datei ist zu groß. Es können höchstens %s geladen werden."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Die Zeichenkodierung kann nicht automatisch erkannt werden."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Die Datei wurde extern verändert."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Zwischenspeicher enthält ungültige Zeichen."
+
+#~ msgid "Error when loading the file."
+#~ msgstr "Beim Laden der Datei trat ein Fehler auf."
+
+#~ msgid "Save File"
+#~ msgstr "Datei speichern"
+
+#~ msgid "Location:"
+#~ msgstr "Ort:"
+
+#~ msgid "Close file"
+#~ msgstr "Datei schließen"
+
+#~ msgid "Error when saving the file."
+#~ msgstr "Beim Speichern der Datei trat ein Fehler auf."

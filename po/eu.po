@@ -1,0 +1,33 @@
+# Basque translation for amtk.
+# Copyright (C) 2019 amtk's COPYRIGHT HOLDER
+# This file is distributed under the same license as the amtk package.
+# Asier Sarasua Garmendia <asier.sarasua@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: amtk master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2019-09-15 10:00+0100\n"
+"Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Ireki “%s”"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Ireki _oraintsukoa"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Ireki berriki erabilitako fitxategi bat %s erabilita"

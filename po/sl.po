@@ -1,0 +1,146 @@
+# Slovenian translation for amtk.
+# Copyright (C) 2017 amtk's COPYRIGHT HOLDER
+# This file is distributed under the same license as the amtk package.
+#
+# Matej Urbančič <mateju@svn.gnome.org>, + 2017–2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: amtk master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-08-10 20:07+0200\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Odpri »%s«"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Odpri _nedavno"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Odpri datoteko, nazadnje uporabljeno s programom %s"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Zahodnjaški"
+
+#~ msgid "Central European"
+#~ msgstr "Srednjeevropski"
+
+#~ msgid "South European"
+#~ msgstr "Južnoevropski"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltski"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirilično"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabski"
+
+#~ msgid "Greek"
+#~ msgstr "Grški"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebrejski predočeni"
+
+#~ msgid "Turkish"
+#~ msgstr "Turški"
+
+#~ msgid "Nordic"
+#~ msgstr "Nordijski"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltski"
+
+#~ msgid "Romanian"
+#~ msgstr "Romunski"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenski"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Kitajski tradicionalen"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirilica/Ruski"
+
+#~ msgid "Japanese"
+#~ msgstr "Japonski"
+
+#~ msgid "Korean"
+#~ msgstr "Korejski"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kitajski poenostavljen"
+
+#~ msgid "Georgian"
+#~ msgstr "Gruzijski"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebrejski"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirilica/Ukrajinski"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamski"
+
+#~ msgid "Thai"
+#~ msgstr "Tajski"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznano"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'TRENUTNI', 'ISO-8859-15', 'UTF-16']"
+
+#, fuzzy
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr "Pretvorba iz nabora znakov »%s« v »%s« ni podprta"
+
+#, fuzzy
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Ni mogoče odpreti pretvornika iz »%s« v »%s«: %s"
+
+#, fuzzy
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Neveljavno zaporedje bajtov na vhodu pretvorbe"
+
+#, fuzzy
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Napaka med pretvarjanjem podatkov: %s"
+
+#, fuzzy
+#~ msgid "Untitled File %d"
+#~ msgstr "Nepoimenovana datoteka %d"
+
+#, fuzzy
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Ni mogoče določiti nabora znakov v datoteki."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Datoteka je močno spremenjena."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Medpomnilnik vsebuje neveljavne znake."

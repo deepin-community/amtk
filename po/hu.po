@@ -1,0 +1,273 @@
+# Hungarian translation for tepl.
+# Copyright (C) 2017, 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tepl package.
+#
+# Balázs Úr <urbalazs at gmail dot com>, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-02-26 23:33+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "„%s” megnyitása"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "_Legutóbbi megnyitása"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "A(z) %s alkalmazással legutóbb használt fájl megnyitása"
+
+#~ msgid "_New"
+#~ msgstr "Ú_j"
+
+#~ msgid "New file"
+#~ msgstr "Új fájl"
+
+#~ msgid "New _Window"
+#~ msgstr "Új _ablak"
+
+#~ msgid "Create a new window"
+#~ msgstr "Új ablak létrehozása"
+
+#~ msgid "_Open"
+#~ msgstr "_Megnyitás"
+
+#~ msgid "Open a file"
+#~ msgstr "Fájl megnyitása"
+
+#~ msgid "_Save"
+#~ msgstr "M_entés"
+
+#~ msgid "Save the current file"
+#~ msgstr "Jelenlegi fájl mentése"
+
+#~ msgid "Save _As"
+#~ msgstr "Men_tés másként"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Jelenlegi fájl mentése egy másik helyre"
+
+#~ msgid "_Undo"
+#~ msgstr "V_isszavonás"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Az utolsó művelet visszavonása"
+
+#~ msgid "_Redo"
+#~ msgstr "Új_ra"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "A visszavont művelet ismételt végrehajtása"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Kivágás"
+
+#~ msgid "Cut the selection"
+#~ msgstr "A kijelölés kivágása"
+
+#~ msgid "_Copy"
+#~ msgstr "_Másolás"
+
+#~ msgid "Copy the selection"
+#~ msgstr "A kijelölés másolása"
+
+#~ msgid "_Paste"
+#~ msgstr "_Beillesztés"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "A vágólap tartalmának beillesztése"
+
+#~ msgid "_Delete"
+#~ msgstr "_Törlés"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "A kijelölt szöveg törlése"
+
+#~ msgid "Select _All"
+#~ msgstr "Az össz_es kijelölése"
+
+#~ msgid "Select all the text"
+#~ msgstr "Az összes szöveg kijelölése"
+
+#~ msgid "_Indent"
+#~ msgstr "_Behúzás"
+
+#~ msgid "Indent the selected lines"
+#~ msgstr "A kijelölt sorok behúzása"
+
+#~ msgid "_Unindent"
+#~ msgstr "Behúzás _visszavonása"
+
+#~ msgid "Unindent the selected lines"
+#~ msgstr "A kijelölt sorok behúzásának visszavonása"
+
+#~ msgid "Open File"
+#~ msgstr "Fájl megnyitása"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Mégse"
+
+#~ msgid "Read-Only"
+#~ msgstr "Írásvédett"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "Menti a változtatásokat a(z) „%s” fájlba bezárás előtt?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Bezárás mentés _nélkül"
+
+#~ msgid "_Save As…"
+#~ msgstr "M_entés másként…"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Nyugati"
+
+#~ msgid "Central European"
+#~ msgstr "Közép-európai"
+
+#~ msgid "South European"
+#~ msgstr "Dél-európai"
+
+#~ msgid "Baltic"
+#~ msgstr "Balti"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirill"
+
+#~ msgid "Arabic"
+#~ msgstr "Arab"
+
+#~ msgid "Greek"
+#~ msgstr "Görög"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Héber (képi)"
+
+#~ msgid "Turkish"
+#~ msgstr "Török"
+
+#~ msgid "Nordic"
+#~ msgstr "Északi"
+
+#~ msgid "Celtic"
+#~ msgstr "Kelta"
+
+#~ msgid "Romanian"
+#~ msgstr "Román"
+
+#~ msgid "Armenian"
+#~ msgstr "Örmény"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Hagyományos kínai"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirill/orosz"
+
+#~ msgid "Japanese"
+#~ msgstr "Japán"
+
+#~ msgid "Korean"
+#~ msgstr "Koreai"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Egyszerűsített kínai"
+
+#~ msgid "Georgian"
+#~ msgstr "Grúz"
+
+#~ msgid "Hebrew"
+#~ msgstr "Héber"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirill/ukrán"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnami"
+
+#~ msgid "Thai"
+#~ msgstr "Thai"
+
+#~ msgid "Unknown"
+#~ msgstr "Ismeretlen"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr ""
+#~ "['UTF-8', 'CURRENT', 'ISO-8859-2', 'WINDOWS-1250', 'IBM852', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr ""
+#~ "A(z) „%s” és „%s” karakterkészletek közötti átalakítás nem támogatott."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr ""
+#~ "A(z) „%s” karakterkészletről „%s” karakterkészletre átalakító nem "
+#~ "nyitható meg: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "A bemeneti adat érvénytelen sorozatot tartalmaz."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Hiba az adatok átalakításakor: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr "A bemeneti adat egy befejezetlen több-bájtos sorozattal végződik."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "A bemeneti tartalom befejezetlen adattal végződik."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "%d. névtelen fájl"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "A fájl túl nagy. Legfeljebb %s lehet betöltve."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Nem lehetséges a karakterkódolást automatikusan felismerni."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "A fájlt külsőleg módosították."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "A puffer érvénytelen karaktereket tartalmaz."
+
+#~ msgid "Error when loading the file."
+#~ msgstr "Hiba a fájl betöltésekor."
+
+#~ msgid "Save File"
+#~ msgstr "Fájl mentése"
+
+#~ msgid "Location:"
+#~ msgstr "Hely:"
+
+#~ msgid "Close file"
+#~ msgstr "Fájl bezárása"
+
+#~ msgid "Error when saving the file."
+#~ msgstr "Hiba a fájl mentésekor."

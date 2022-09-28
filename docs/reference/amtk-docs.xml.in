@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+   "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd"
+[
+ <!ENTITY % local.common.attrib "xmlns:xi CDATA #FIXED 'http://www.w3.org/2003/XInclude'">
+ <!ENTITY % gtkdocentities SYSTEM "xml/gtkdocentities.ent">
+ %gtkdocentities;
+]>
+<book id="index">
+  <bookinfo>
+    <title>Amtk @AMTK_API_VERSION@ Reference Manual</title>
+    <releaseinfo>for Amtk &package_version;</releaseinfo>
+  </bookinfo>
+
+  <xi:include href="amtk-intro.xml"/>
+
+  <part id="api-reference">
+    <title>Amtk API Reference</title>
+    <xi:include href="xml/amtk-init.xml"/>
+    <xi:include href="xml/amtk-application-window.xml"/>
+    <xi:include href="xml/amtk-action-info.xml"/>
+    <xi:include href="xml/amtk-action-info-store.xml"/>
+    <xi:include href="xml/amtk-action-info-central-store.xml"/>
+    <xi:include href="xml/amtk-action-map.xml"/>
+    <xi:include href="xml/amtk-factory.xml"/>
+    <xi:include href="xml/amtk-gmenu.xml"/>
+    <xi:include href="xml/amtk-menu-item.xml"/>
+    <xi:include href="xml/amtk-menu-shell.xml"/>
+    <xi:include href="xml/amtk-shortcuts.xml"/>
+    <xi:include href="xml/amtk-utils.xml"/>
+  </part>
+
+  <part id="annexes">
+    <title>Annexes</title>
+
+    <chapter id="object-tree">
+      <title>Object Hierarchy</title>
+      <xi:include href="xml/tree_index.sgml"/>
+    </chapter>
+
+    <xi:include href="xml/annotation-glossary.xml"><xi:fallback /></xi:include>
+
+    <index id="api-index-full">
+      <title>Index of all symbols</title>
+      <xi:include href="xml/api-index-full.xml"><xi:fallback /></xi:include>
+    </index>
+    <index id="api-index-2-0" role="2.0">
+      <title>Index of new symbols in 2.0</title>
+      <xi:include href="xml/api-index-2.0.xml"><xi:fallback /></xi:include>
+    </index>
+    <index id="api-index-3-0" role="3.0">
+      <title>Index of new symbols in 3.0</title>
+      <xi:include href="xml/api-index-3.0.xml"><xi:fallback /></xi:include>
+    </index>
+    <index id="api-index-4-0" role="4.0">
+      <title>Index of new symbols in 4.0</title>
+      <xi:include href="xml/api-index-4.0.xml"><xi:fallback /></xi:include>
+    </index>
+    <index id="api-index-5-0" role="5.0">
+      <title>Index of new symbols in 5.0</title>
+      <xi:include href="xml/api-index-5.0.xml"><xi:fallback /></xi:include>
+    </index>
+  </part>
+</book>

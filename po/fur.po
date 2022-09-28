@@ -1,0 +1,153 @@
+# Friulian translation for tepl.
+# Copyright (C) 2017 tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Fabio Tomat <f.t.public@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2017-04-08 20:42+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Vierç “%s”"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Vierç _resint"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Vierç un file doprât di resint cun %s"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Ocidentâl"
+
+#~ msgid "Central European"
+#~ msgstr "European centrâl"
+
+#~ msgid "South European"
+#~ msgstr "European dal sud"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltic"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirilic"
+
+#~ msgid "Arabic"
+#~ msgstr "Arap"
+
+#~ msgid "Greek"
+#~ msgstr "Grêc"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Ebraic Visuâl"
+
+#~ msgid "Turkish"
+#~ msgstr "Turc"
+
+#~ msgid "Nordic"
+#~ msgstr "Nordic"
+
+#~ msgid "Celtic"
+#~ msgstr "Celtic"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumen"
+
+#~ msgid "Armenian"
+#~ msgstr "Armen"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Cinês tradizionâl"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirilic/Rus"
+
+#~ msgid "Japanese"
+#~ msgstr "Gjaponês"
+
+#~ msgid "Korean"
+#~ msgstr "Corean"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Cinês semplificât"
+
+#~ msgid "Georgian"
+#~ msgstr "Gjeorgjan"
+
+#~ msgid "Hebrew"
+#~ msgstr "Ebraic"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirilic/Ucrain"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamît"
+
+#~ msgid "Thai"
+#~ msgstr "Tailandês"
+
+#~ msgid "Unknown"
+#~ msgstr "No cognossût"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr ""
+#~ "La conversion de cumbinazion di caratars “%s” a “%s” no je supuartade."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Impussibil convertî di “%s” a “%s”: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "I dâts in jentrade a contegnin une secuence no valide."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Erôr tal convertî i dâts: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr ""
+#~ "I dâts in jentrade a finissin cuntune secuence di byte multiplis "
+#~ "incomplete."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "Il contignût de jentrade al finìs cun dâts incomplets."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "File cence titul %d"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "Il file al è masse grant. Si pues cjariâ al massim %s."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Nol è pussibil individuâ la codifiche dal caratar in automatic."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Il file al è modificât di difûr di chi."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Il buffer al conten caratars no valits."

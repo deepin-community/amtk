@@ -1,0 +1,6 @@
+amtk_action_info_central_store_get_type
+amtk_action_info_get_type
+amtk_action_info_store_get_type
+amtk_application_window_get_type
+amtk_factory_get_type
+amtk_menu_shell_get_type

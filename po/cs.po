@@ -1,0 +1,269 @@
+# Czech translation for tepl.
+# Copyright (C) 2017 tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Marek Černocký <marek@manet.cz>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-02-07 08:02+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Otevřít „%s“"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Otevřít ne_dávné"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Otevřít soubor nedávno použitý aplikací %s"
+
+#~ msgid "_New"
+#~ msgstr "_Nový"
+
+#~ msgid "New file"
+#~ msgstr "Nový soubor"
+
+#~ msgid "New _Window"
+#~ msgstr "No_vé okno"
+
+#~ msgid "Create a new window"
+#~ msgstr "Vytvořit nové okno"
+
+#~ msgid "_Open"
+#~ msgstr "_Otevřít"
+
+#~ msgid "Open a file"
+#~ msgstr "Otevřít soubor"
+
+#~ msgid "_Save"
+#~ msgstr "_Uložit"
+
+#~ msgid "Save the current file"
+#~ msgstr "Uložit aktuální soubor"
+
+#~ msgid "Save _As"
+#~ msgstr "Uložit j_ako"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Uložit aktuální soubor na jiné místo"
+
+#~ msgid "_Undo"
+#~ msgstr "_Zpět"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Vrátit zpět poslední úkon"
+
+#~ msgid "_Redo"
+#~ msgstr "Zno_vu"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Znovu provást poslední vrácený úkon"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Vyjmout"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Vyjmout výběr"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopírovat"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Kopírovat výběr"
+
+#~ msgid "_Paste"
+#~ msgstr "V_ložit"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Vložit obsah schránky"
+
+#~ msgid "_Delete"
+#~ msgstr "_Smazat"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Smazat vybraný text"
+
+#~ msgid "Select _All"
+#~ msgstr "Vybr_at vše"
+
+#~ msgid "Select all the text"
+#~ msgstr "Vybrat všechen text"
+
+#~ msgid "_Indent"
+#~ msgstr "Odsad_it"
+
+#~ msgid "Indent the selected lines"
+#~ msgstr "Odsadit vybrané řádky"
+
+#~ msgid "_Unindent"
+#~ msgstr "Zr_ušit odsazení"
+
+#~ msgid "Unindent the selected lines"
+#~ msgstr "Zrušit odsazení vybraných řádků"
+
+#~ msgid "Open File"
+#~ msgstr "Otevření souboru"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Zrušit"
+
+#~ msgid "Read-Only"
+#~ msgstr "Jen ke čtení"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "Uložit před zavřením změny do souboru „%s“?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Zavřít _bez uložení"
+
+#~ msgid "_Save As…"
+#~ msgstr "Uložit j_ako…"
+
+#~ msgid "Unicode"
+#~ msgstr "Unikód"
+
+#~ msgid "Western"
+#~ msgstr "Západoevropské"
+
+#~ msgid "Central European"
+#~ msgstr "Středoevropské"
+
+#~ msgid "South European"
+#~ msgstr "Jihoevropské"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltické"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Azbuka"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabské"
+
+#~ msgid "Greek"
+#~ msgstr "Řecké"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebrejské vizuální"
+
+#~ msgid "Turkish"
+#~ msgstr "Turecké"
+
+#~ msgid "Nordic"
+#~ msgstr "Skandinávské"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltské"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumunské"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenské"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Čínské tradiční"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Azbuka ruská"
+
+#~ msgid "Japanese"
+#~ msgstr "Japonské"
+
+#~ msgid "Korean"
+#~ msgstr "Korejské"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Čínské zjednodušené"
+
+#~ msgid "Georgian"
+#~ msgstr "Gruzínské"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebrejské"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Azbuka ukrajinská"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamské"
+
+#~ msgid "Thai"
+#~ msgstr "Thajské"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznámé"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-2', 'WINDOWS-1250', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr "Převod ze znakové sady „%s“ do „%s“ není podporován."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Nelze otevřít převodník z „%s“ do „%s“: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Vstupní data obsahují neplatnou posloupnost."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Chyba při převodu dat: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr "Vstupní data končí neúplnou víceznakovou posloupností."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "Obsah vstupu končí neúplnými daty."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Nepojmenovaný soubor %d"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "Soubor je příliš velký. Načteno může být nanejvýše %s."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Není možné automaticky zjistit kódování znaků."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Soubor byl externě změněn."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Vyrovnávací paměť obsahuje neplatné znaky."
+
+#~ msgid "Error when loading the file."
+#~ msgstr "Chyba při načítání souboru."
+
+#~ msgid "Save File"
+#~ msgstr "Uložení souboru"
+
+#~ msgid "Location:"
+#~ msgstr "Umístění:"
+
+#~ msgid "Close file"
+#~ msgstr "Zavřít soubor"
+
+#~ msgid "Error when saving the file."
+#~ msgstr "Chyba při ukládání souboru."

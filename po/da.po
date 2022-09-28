@@ -1,0 +1,267 @@
+# Danish translation of tepl.
+# Copyright (C) 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tepl package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2018-02-24 02:00+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Åbn “%s”"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Åbn _seneste"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Åbn en fil brugt for nylig med %s"
+
+#~ msgid "_New"
+#~ msgstr "_Ny"
+
+#~ msgid "New file"
+#~ msgstr "Ny fil"
+
+#~ msgid "New _Window"
+#~ msgstr "Nyt _vindue"
+
+#~ msgid "Create a new window"
+#~ msgstr "Opret et nyt vindue"
+
+#~ msgid "_Open"
+#~ msgstr "_Åbn"
+
+#~ msgid "Open a file"
+#~ msgstr "Åbn en fil"
+
+#~ msgid "_Save"
+#~ msgstr "_Gem"
+
+#~ msgid "Save the current file"
+#~ msgstr "Gem den nuværende fil"
+
+#~ msgid "Save _As"
+#~ msgstr "Gem _som"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Gem den nuværende fil til en anden placering"
+
+#~ msgid "_Undo"
+#~ msgstr "_Genskab"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Genskab den sidste handling"
+
+#~ msgid "_Redo"
+#~ msgstr "_Omgør"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Omgør den sidste genskab-handling"
+
+#~ msgid "Cu_t"
+#~ msgstr "K_lip"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Klip markeringen"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopier"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Kopier markeringen"
+
+#~ msgid "_Paste"
+#~ msgstr "_Indsæt"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Indsæt udklipsholderen"
+
+#~ msgid "_Delete"
+#~ msgstr "_Slet"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Slet den markerede tekst"
+
+#~ msgid "Select _All"
+#~ msgstr "Vælg _alt"
+
+#~ msgid "Select all the text"
+#~ msgstr "Vælg al teksten"
+
+#~ msgid "_Indent"
+#~ msgstr "Indr_yk"
+
+#~ msgid "Indent the selected lines"
+#~ msgstr "Indryk de markerede linjer"
+
+#~ msgid "_Unindent"
+#~ msgstr "_Fjern indryk"
+
+#~ msgid "Unindent the selected lines"
+#~ msgstr "Fjern indrykning af de valge linjer"
+
+#~ msgid "Open File"
+#~ msgstr "Åbn fil"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Annullér"
+
+#~ msgid "Read-Only"
+#~ msgstr "Skrivebeskyttet"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "Gem ændringer til filen “%s” før lukning?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Luk _uden at gemme"
+
+#~ msgid "_Save As…"
+#~ msgstr "_Gem som …"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Vestlig"
+
+#~ msgid "Central European"
+#~ msgstr "Centraleuropæisk"
+
+#~ msgid "South European"
+#~ msgstr "Sydeuropæisk"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltisk"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrillisk"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabisk"
+
+#~ msgid "Greek"
+#~ msgstr "Græsk"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebraisk visuelt"
+
+#~ msgid "Turkish"
+#~ msgstr "Tyrkisk"
+
+#~ msgid "Nordic"
+#~ msgstr "Nordisk"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltisk"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumænsk"
+
+#~ msgid "Armenian"
+#~ msgstr "Armensk"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Kinesisk traditionelt"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrillisk/russisk"
+
+#~ msgid "Japanese"
+#~ msgstr "Japansk"
+
+#~ msgid "Korean"
+#~ msgstr "Koreansk"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kinesisk forenklet"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgisk"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebraisk"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrillisk/ukrainsk"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamesisk"
+
+#~ msgid "Thai"
+#~ msgstr "Thai"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr "Konvertering fra tegnsættet “%s” til “%s” er ikke understøttet."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "Kunne ikke åbne konverteringsprogram fra “%s” til “%s”: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Inddataene indeholder en ugyldig sekvens."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Der opstod en fejl under konvertering af data: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr "Inddataene ender med en ufuldstændig multi-byte-sekvens."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "Inddataindholdet ender med ufuldstændige data."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Filen %d er uden titel"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr "Filen er for stor. Maksimalt %s kan indlæses."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr "Det er ikke muligt at udlede tegnkodningen automatisk."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "Filen bliver ændret eksternt."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "Mellemlageret indeholder ugyldige tegn."
+
+#~ msgid "Error when loading the file."
+#~ msgstr "Fejl under indlæsning af filen."
+
+#~ msgid "Save File"
+#~ msgstr "Gem fil"
+
+#~ msgid "Location:"
+#~ msgstr "Placering:"
+
+#~ msgid "Close file"
+#~ msgstr "Luk fil"
+
+#~ msgid "Error when saving the file."
+#~ msgstr "Der opstod en fejl, da filen blev gemt."

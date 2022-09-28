@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+  <name xml:lang="en">Amtk</name>
+  <shortdesc xml:lang="en">Actions, Menus and Toolbars Kit for GTK applications</shortdesc>
+  <description xml:lang="en">Amtk is the acronym for “Actions, Menus and
+Toolbars Kit”. It is a basic GtkUIManager replacement based on GAction. It is
+suitable for both a traditional UI or a modern UI with a GtkHeaderBar.</description>
+
+  <homepage rdf:resource="https://wiki.gnome.org/Projects/Amtk" />
+  <mailing-list rdf:resource="https://mail.gnome.org/mailman/listinfo/gnome-devtools" />
+  <download-page rdf:resource="https://download.gnome.org/sources/amtk/" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/amtk/issues" />
+
+  <programming-language>C</programming-language>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Sébastien Wilmet</foaf:name>
+      <foaf:mbox rdf:resource="mailto:swilmet@gnome.org" />
+      <gnome:userid>swilmet</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>

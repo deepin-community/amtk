@@ -1,0 +1,277 @@
+# Spanish translation for tepl.
+# Copyright (C) 2017 tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/amtk/issues\n"
+"POT-Creation-Date: 2020-09-10 12:48+0200\n"
+"PO-Revision-Date: 2017-12-14 14:15+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. Translators: %s is a filename.
+#: amtk/amtk-application-window.c:374
+#, c-format
+msgid "Open “%s”"
+msgstr "Abrir «%s»"
+
+#: amtk/amtk-application-window.c:630
+msgid "Open _Recent"
+msgstr "Abir _reciente"
+
+#. Translators: %s is the application name.
+#: amtk/amtk-application-window.c:633
+#, c-format
+msgid "Open a file recently used with %s"
+msgstr "Abrir un archivo usado recientemente con %s"
+
+#~ msgid "_New"
+#~ msgstr "_Nuevo"
+
+#~ msgid "New file"
+#~ msgstr "Archivo nuevo"
+
+#~ msgid "New _Window"
+#~ msgstr "_Ventana nueva"
+
+#~ msgid "Create a new window"
+#~ msgstr "Crear una ventana nueva"
+
+#~ msgid "_Open"
+#~ msgstr "Ab_rir"
+
+#~ msgid "Open a file"
+#~ msgstr "Abrir un archivo"
+
+#~ msgid "_Save"
+#~ msgstr "_Guardar"
+
+#~ msgid "Save the current file"
+#~ msgstr "Guardar el archivo actual"
+
+#~ msgid "Save _As"
+#~ msgstr "Guardar _como"
+
+#~ msgid "Save the current file to a different location"
+#~ msgstr "Guarda el archivo actual en un lugar diferente"
+
+#~ msgid "_Undo"
+#~ msgstr "Des_hacer"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Deshace la última acción"
+
+#~ msgid "_Redo"
+#~ msgstr "_Rehacer"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Rehacer la última acción deshecha"
+
+#~ msgid "Cu_t"
+#~ msgstr "C_ortar"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Cortar la selección"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copiar"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Copiar la selección"
+
+#~ msgid "_Paste"
+#~ msgstr "_Pegar"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Pegar del portapapeles"
+
+#~ msgid "_Delete"
+#~ msgstr "_Eliminar"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Eliminar el texto seleccionado"
+
+#~ msgid "Select _All"
+#~ msgstr "Seleccionar _todo"
+
+#~ msgid "Select all the text"
+#~ msgstr "Seleccionar todo el texto"
+
+#~ msgid "_Indent"
+#~ msgstr "_Sangrar"
+
+#~ msgid "Indent the selected lines"
+#~ msgstr "Sangrar las líneas seleccionadas"
+
+#~ msgid "_Unindent"
+#~ msgstr "Qui_tar sangrado"
+
+#~ msgid "Unindent the selected lines"
+#~ msgstr "Quitar sangrado de las líneas seleccionadas"
+
+#~ msgid "Open File"
+#~ msgstr "Abrir archivo"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "Read-Only"
+#~ msgstr "Sólo lectura"
+
+#, c-format
+#~ msgid "Save changes to file “%s” before closing?"
+#~ msgstr "¿Quiere guardar los cambios en el archivo «%s» antes de cerrar?"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "Cerrar _sin guardar"
+
+#~| msgid "Save _As"
+#~ msgid "_Save As…"
+#~ msgstr "Guardar _como…"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Occidental"
+
+#~ msgid "Central European"
+#~ msgstr "Europa central"
+
+#~ msgid "South European"
+#~ msgstr "Europa del sur"
+
+#~ msgid "Baltic"
+#~ msgstr "Báltico"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cirílico"
+
+#~ msgid "Arabic"
+#~ msgstr "Árabe"
+
+#~ msgid "Greek"
+#~ msgstr "Griego"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebreo visual"
+
+#~ msgid "Turkish"
+#~ msgstr "Turco"
+
+#~ msgid "Nordic"
+#~ msgstr "Nórdico"
+
+#~ msgid "Celtic"
+#~ msgstr "Celta"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumano"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenio"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Chino tradicional"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cirílico/Ruso"
+
+#~ msgid "Japanese"
+#~ msgstr "Japones"
+
+#~ msgid "Korean"
+#~ msgstr "Coreano"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chino simplificado"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgiano"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreo"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cirílico/Ucraniano"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamita"
+
+#~ msgid "Thai"
+#~ msgstr "Tailandés"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconocido"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#, c-format
+#~ msgid "Conversion from character set “%s” to “%s” is not supported."
+#~ msgstr ""
+#~ "La conversión desde el conjunto de caracteres «%s» a «%s» no está "
+#~ "soportada."
+
+#, c-format
+#~ msgid "Could not open converter from “%s” to “%s”: %s"
+#~ msgstr "No se pudo abrir el conversor de «%s» a «%s»: %s"
+
+#~ msgid "The input data contains an invalid sequence."
+#~ msgstr "Los datos de entrada contienen una secuencia no válida."
+
+#, c-format
+#~ msgid "Error when converting data: %s"
+#~ msgstr "Error al convertir los datos: %s"
+
+#~ msgid "The input data ends with an incomplete multi-byte sequence."
+#~ msgstr ""
+#~ "Los datos de entrada terminan con una secuencia de varios bytes "
+#~ "incompleta."
+
+#~ msgid "The input content ends with incomplete data."
+#~ msgstr "El contenido de la entrada termina con datos incompletos."
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Archivo sin título %d"
+
+#, c-format
+#~ msgid "The file is too big. Maximum %s can be loaded."
+#~ msgstr ""
+#~ "El archivo es demasiado grande. Sólo se puede cargar un máximo de %s."
+
+#~ msgid "It is not possible to detect the character encoding automatically."
+#~ msgstr ""
+#~ "No es posible detectar la codificación de caracteres automáticamente."
+
+#~ msgid "The file is externally modified."
+#~ msgstr "El archivo se ha modificado externamente."
+
+#~ msgid "The buffer contains invalid characters."
+#~ msgstr "El búfer contiene caracteres no válidos."
+
+#~ msgid "Error when loading the file."
+#~ msgstr "Error al cargar el archivo."
+
+#~ msgid "Save File"
+#~ msgstr "Guardar archivo"
+
+#~ msgid "Location:"
+#~ msgstr "Ubicación:"
+
+#~| msgid "New file"
+#~ msgid "Close file"
+#~ msgstr "Cerrar archivo"
+
+#~ msgid "Error when saving the file."
+#~ msgstr "Error al guardar el archivo."
